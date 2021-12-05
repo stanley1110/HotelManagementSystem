@@ -24,6 +24,7 @@ namespace HotelManagementSystem.Data
         public virtual DbSet<Booking>  Bookings { get; set; }
         public virtual DbSet<Staff>  Staffs { get; set; }
         public virtual DbSet<SuperAdmin>  SuperAdmins { get; set; }
+
        
         }
     }

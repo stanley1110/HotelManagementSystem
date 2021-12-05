@@ -674,3 +674,73 @@ File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
    --- End of inner exception stack trace ---
 2021-12-05 13:11:43.3376 Info Adding target FileTarget(Name=myLogFile)
 2021-12-05 13:11:43.4338 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
+2021-12-05 14:31:45.7975 Info Message Template Auto Format enabled
+2021-12-05 14:31:45.9463 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 14:31:45.9463 Info Loading assembly: NLog.Appsettings.Standard
+2021-12-05 14:31:46.1731 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Appsettings.Standard
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-12-05 14:31:47.1461 Info Adding target FileTarget(Name=myLogFile)
+2021-12-05 14:31:47.2924 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
+2021-12-05 14:33:38.3397 Info Message Template Auto Format enabled
+2021-12-05 14:33:38.4141 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 14:33:38.4141 Info Loading assembly: NLog.Appsettings.Standard
+2021-12-05 14:33:38.4404 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Appsettings.Standard
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-12-05 14:33:38.8323 Info Adding target FileTarget(Name=myLogFile)
+2021-12-05 14:33:39.1240 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
+2021-12-05 14:35:04.5340 Info Message Template Auto Format enabled
+2021-12-05 14:35:04.5714 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 14:35:04.5714 Info Loading assembly: NLog.Appsettings.Standard
+2021-12-05 14:35:04.5980 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Appsettings.Standard
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-12-05 14:35:04.9278 Info Adding target FileTarget(Name=myLogFile)
+2021-12-05 14:35:05.0486 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
+2021-12-05 14:43:31.5273 Info Message Template Auto Format enabled
+2021-12-05 14:43:31.5854 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 14:43:31.5854 Info Loading assembly: NLog.Appsettings.Standard
+2021-12-05 14:43:31.5980 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Appsettings.Standard
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-12-05 14:43:32.1113 Info Adding target FileTarget(Name=myLogFile)
+2021-12-05 14:43:32.4493 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
+2021-12-05 14:47:47.1700 Info Message Template Auto Format enabled
+2021-12-05 14:47:47.2800 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-05 14:47:47.2856 Info Loading assembly: NLog.Appsettings.Standard
+2021-12-05 14:47:47.3497 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Appsettings.Standard
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Appsettings.Standard, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2021-12-05 14:47:47.8669 Info Adding target FileTarget(Name=myLogFile)
+2021-12-05 14:47:48.3202 Info Validating config: TargetNames=myLogFile, ConfigItems=22, FilePath=C:\Users\HP\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\net5.0\nlog.config
