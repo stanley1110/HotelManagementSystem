@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelManagementSystem</name>
+    </assembly>
+    <members>
+        <member name="M:HotelManagementSystem.Controllers.AccountController.LoginAsAdmin(System.String,System.String)">
+            <summary>
+            Login as admin
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AccountController.LoginAsStaff(System.String,System.String)">
+            <summary>
+            Login as staff
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AccountController.LoginAsGuest(System.String,System.String)">
+            <summary>
+            Login as guest
+            </summary>
+            <param name="nin"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AdminController.GetBookings">
+            <summary>
+            Fetches all bookings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AdminController.Getrooms">
+            <summary>
+            Fetches all bookings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AdminController.CreateStaff(HotelManagementSystem.DTO.StaffVM)">
+            <summary>
+            Creates a staff by authenticated Admin
+            </summary>
+            <param name="staffVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.AdminController.RemoveStaff(System.Int64)">
+            <summary>
+            remove staff
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.GuestController.BookGuestRoom(System.Int32,System.Int32)">
+             <summary>
+            Books GuestRoom
+             </summary>
+             <returns></returns>
+             
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.GuestController.CancelRoomBooking(System.String)">
+             <summary>
+            cancels booking
+             </summary>
+             <param name="email"></param>
+             <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.GuestController.Updateguest(HotelManagementSystem.DTO.GuestVM)">
+            <summary>
+            Update guest details by Guest
+            </summary>
+            <param name="guestVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.QueryController.CreateGuest(HotelManagementSystem.DTO.GuestVM)">
+            <summary>
+            create guest
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.QueryController.CreateAdmin(HotelManagementSystem.DTO.SuperAdminVM)">
+            <summary>
+            create Admnin
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.QueryController.CreateStaff(HotelManagementSystem.DTO.StaffVM)">
+            <summary>
+            Create Staff
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.StaffController.CreateRooms(HotelManagementSystem.DTO.RoomStoreVM)">
+            <summary>
+            Creates Room by Staff
+            </summary>
+            <param name="roomStore"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.StaffController.UpdateStaff(HotelManagementSystem.DTO.StaffVM)">
+            <summary>
+            Update Staff details by Staff
+            </summary>
+            <param name="staffVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelManagementSystem.Controllers.StaffController.UpdateRoom(HotelManagementSystem.DTO.RoomStoreVM)">
+            <summary>
+            Update Room details by Staff
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HotelManagementSystem.Securities.ApplicationClaimTypes">
+            <summary>
+            This is the claim types for this application
+            </summary>
+        </member>
+    </members>
+</doc>
