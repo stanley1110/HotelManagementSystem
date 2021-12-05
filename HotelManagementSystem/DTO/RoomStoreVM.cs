@@ -1,5 +1,6 @@
 ﻿
 using HotelManagementSystem.Data;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,8 +16,8 @@ namespace HotelManagementSystem.DTO
         [MaxLength(50)]
         [StringLength(50)]
         public string RoomNo { get; set; }
-        [StringLength(200)]
-        public string Picture { get; set; }
+        public IFormFile Image { get; set; }
+        public string ImagePath { get; set; }
         [StringLength(150)]
         public string Description { get; set; }
         public decimal Price { get; set; }

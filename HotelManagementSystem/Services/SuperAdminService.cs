@@ -50,7 +50,7 @@ namespace HotelManagementSystem.Services
 
         public async Task<List<RoomStore>> GetTotalRooms()
         {
-            return await _context.RoomStores.Where(x => x.RoomImages != null && x.IsDeleted == false).ToListAsync();
+            return await _context.RoomStores.Where(x => x.ImagePath != null && x.IsDeleted == false).ToListAsync();
         }
 
     }

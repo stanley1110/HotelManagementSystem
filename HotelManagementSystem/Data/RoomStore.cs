@@ -23,8 +23,9 @@ namespace HotelManagementSystem.Data
         [DataType(DataType.MultilineText)]
         public string Description { get; set; }
         [StringLength(200)]
-        public string RoomImages { get; set; }
-      
+        public byte[] Image { get; set; }
+        public string ImagePath { get; set; }
+
         public virtual ICollection<Booking> Bookings { get; set; }
     }
 }
